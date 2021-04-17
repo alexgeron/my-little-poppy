@@ -11,7 +11,7 @@
 
 - PHP-FPM 7.2
 - Nginx 1.13
-- MySQL 5.7 | PostgreSQL 9.6 | MongoDB 3.4
+- MongoDB 3.4
 - Redis 4.0
 - [ELK](https://github.com/spujadas/elk-docker) (Elasticsearch 6.1.2, Logstash 6.1.2, Kibana 6.1.2)
 
