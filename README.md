@@ -19,7 +19,7 @@
 
 1. Clone this repository
     ```bash
-    $ git clone https://github.com/guham/symfony-docker.git
+    $ git clone git@github.com:alexgeron/my-little-poppy.git
     ```
 2. Update the Docker `.env` file according to your needs. The `NGINX_HOST` environment variable allows you to use a custom server name
 
