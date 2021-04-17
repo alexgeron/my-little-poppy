@@ -1,0 +1,4 @@
+.idea
+.data/*
+!.data/.gitkeep
+docker-stack.yaml
