@@ -24,7 +24,7 @@ class Tag
     protected $label;
 
     /**
-     * @MongoDB\ReferenceOne(targetDocument=Friend::class) 
+     * @MongoDB\ReferenceMany(targetDocument=Friend::class) 
      */
     protected $friend;
 
