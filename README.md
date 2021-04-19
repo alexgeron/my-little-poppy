@@ -52,8 +52,7 @@
 
 You can access the application both in HTTP and HTTPS:
 
-- with `APP_ENV=dev` or `APP_ENV=prod`: [symfony-docker.localhost](http://symfony-docker.localhost)
-- Kibana logs: [symfony-docker.localhost:5601](http://symfony-docker.localhost:5601)
+[symfony-docker.localhost](http://symfony-docker.localhost)
 
 **Note:** `symfony-docker.localhost` is the default server name. You can customize it in the `.env` file with `NGINX_HOST` variable.
 
