@@ -1,17 +1,9 @@
-# Symfony 4.0 + Docker
+# My little Poppy
 
 ##  Requirements
 
 - [Docker](https://docs.docker.com/engine/installation/) installed
 - [Docker Compose](https://docs.docker.com/compose/install/) installed
-
-## Services
-
-- PHP-FPM 7.2
-- Nginx 1.13
-- MongoDB 3.4
-- Redis 4.0
-- [ELK](https://github.com/spujadas/elk-docker) (Elasticsearch 6.1.2, Logstash 6.1.2, Kibana 6.1.2)
 
 ## Installation
 
