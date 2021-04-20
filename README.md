@@ -1,26 +1,8 @@
-# My little Poppy
-
-##  Requirements
-
-- [Docker](https://docs.docker.com/engine/installation/) installed
-- [Docker Compose](https://docs.docker.com/compose/install/) installed
-
-## Installation
-
 1. Clone this repository
     ```bash
     $ git clone git@github.com:alexgeron/my-little-poppy.git
     ```
-2. Update the Docker `.env` file according to your needs. The `NGINX_HOST` environment variable allows you to use a custom server name
-
-3. Add the server name in your system host file
-
-4. Copy the `symfony/.env.dist` file to `symfony/.env`
-    ```bash
-    $ cp symfony/.env.dist symfony/.env
-    ```
-
-5. Build & run containers with `docker-compose` 
+2. Build & run containers with `docker-compose` 
     ```bash
     $ docker-compose -f docker-compose.yaml -f docker-compose.mongodb.yaml build
     ```
@@ -29,7 +11,7 @@
     $ docker-compose -f docker-compose.yaml -f docker-compose.mongodb.yaml up -d
     ```
 
-6. Composer install
+3. Composer install
 
     first, configure permissions on `symfony/var` folder
     ```bash
@@ -66,3 +48,6 @@ $ docker-compose exec app chown -R www-data:1000 var/log
 # access with application account
 $ docker-compose -f docker-stack.yaml exec mongodb mongo -u symfony -p symfony --authenticationDatabase symfony
 ```
+
+## Credits
+To create this project I used the following repo : https://github.com/guham/symfony-docker
